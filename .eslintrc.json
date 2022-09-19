@@ -1,0 +1,13 @@
+{
+  "extends": "@react-native-community",
+  "plugins": ["testing-library", "jest"],
+  "env": { "jest":  true },
+  "globals": {
+    "module": true,
+    "console": true,
+    "beforeAll": true,
+    "afterAll": true,
+    "window": true,
+    "jest": true
+  }
+}
