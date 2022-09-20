@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     alignItems: 'center',
     alignSelf: 'center',
-    fontWeight: 700,
+    fontWeight: '700',
     color: '#d0421b',
     backgroundColor: 'rgba(255, 0, 0, 0.1)',
     borderRadius: 5,

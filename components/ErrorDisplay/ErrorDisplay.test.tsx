@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react-native';
 import ErrorDisplay from './ErrorDisplay';
 
-describe('src/components/ErrorDisplay', () => {
+describe('components/ErrorDisplay', () => {
   it('should match the snapshot', () => {
     render(<ErrorDisplay errorText="test data" />);
 

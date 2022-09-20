@@ -7,7 +7,7 @@ export interface IErrorDisplayProps {
 }
 
 const ErrorDisplay: FC<IErrorDisplayProps> = ({ errorText }) => (
-  <Text testID="errorDisplay" style={styles.errorText}>
+  <Text style={styles.errorText} testID="errorDisplay">
     {errorText}
   </Text>
 );
